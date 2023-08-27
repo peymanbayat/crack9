@@ -102,7 +102,7 @@ for model in modelList:
         #print i
         #get image name
         imgname=im_test_name_list[i].split('/')[1].split('.')[0]
-        print imgname
+        #print imgname
         #plot_single_scale(scale_lst, 22)
         save_single_scale(scale_lst, imgname, outputpath)
 
