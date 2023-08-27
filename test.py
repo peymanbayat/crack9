@@ -99,7 +99,7 @@ for model in modelList:
         out5 = net.blobs['sigmoid-dsn5'].data[0][0, :, :]
         fuse = net.blobs['sigmoid-fuse'].data[0][0, :, :]
         scale_lst=[fuse]
-        print i
+        #print i
         #get image name
         imgname=im_test_name_list[i].split('/')[1].split('.')[0]
         print imgname
