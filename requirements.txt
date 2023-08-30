@@ -6,6 +6,3 @@ matplotlib
 numpy
 scipy
 protobuf
-caffe
-.pycaffe
-._caffe
